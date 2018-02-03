@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, tempfile, glob, shutil, unicodedata, goslate
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EpdW5JC2Gy1NlevDzxN8.dM9isXLP8/9zqlbvVCtxMa.DZ7+g9EfLG1YO/1bPqJfe6CxHekDMovqn45gQq7+Lfg=")
 cl.loginResult()
 
 print "Anarchy Team Bots"
@@ -92,7 +92,7 @@ A̘̫͈̭͌͛͌̇̇̍n͉̠̙͉̗̺̋̔ͧ̊a̘̫͈̭͌͛͌̇̇̍r̼̯̤̈ͭ̃ͨ̆
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admsa = "mid kamu"
+admsa = "u0e6f484b1969f3ef5940b055bdc4d798"
 
 wait = {
     'contact':False,
@@ -473,7 +473,7 @@ def bot(op):
                 ki6.sendMessage(msg)
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u84734a2bb2201d465e6015f90dc462f0'}
+                msg.contentMetadata = {'mid': 'u0e6f484b1969f3ef5940b055bdc4d798'}
                 cl.sendMessage(msg)
             elif msg.text in ["Allgift","B1 gift"]:
                 msg.contentType = 9
@@ -1307,7 +1307,7 @@ def bot(op):
                     cl.sendText(msg.to,"old user")
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u5818cb4404411c2e2e6e6937d172cca8'}
+                msg.contentMetadata = {'mid': 'u0e6f484b1969f3ef5940b055bdc4d798'}
                 cl.sendText(msg.to,"My Creators")
                 cl.sendMessage(msg)
                 msg.contentType = 13
